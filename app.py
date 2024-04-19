@@ -89,9 +89,9 @@ tarot_cards = [
 def index():
     return send_file('index.html')
 
-@app.route('/index1')
+@app.route('/TrangChu')
 def index1():
-    return render_template('index1.html')
+    return render_template('TrangChu.html')
 
 @app.route('/tarot')
 def tarot():
